@@ -159,7 +159,11 @@ Plugin 'gmarik/Vundle.vim'
 
 " Plugins to be managed by Vundle
 " ----------------------------------------------------------
+<<<<<<< HEAD
 Plugin 'scrooloose/nerdtree'
+=======
+Plugin 'tomasr/molokai'
+>>>>>>> 9889ac698dcfa5ed7a9df546d37d9a3615d979c9
 Plugin 'tpope/vim-markdown'
 Plugin 'suan/vim-instant-markdown'
 Plugin 'bronson/vim-trailing-whitespace'

@@ -17,6 +17,7 @@ This is a list of the plugins used:
   12. [godlygeek/tabular](https://github.com/godlygeek/tabular)
   13. [MatlabFilesEdition](https://github.com/vim-scripts/MatlabFilesEdition)
   14. [scrooloose/nerdtree](https://github.com/scrooloose/nerdtree)
+  15. [tomasr/molokai](https://github.com/tomasr/molokai)
 
 More useful plugins can be found in [Vim Awesome](http://vimawesome.com/)
 
@@ -25,6 +26,9 @@ More useful plugins can be found in [Vim Awesome](http://vimawesome.com/)
 * source the .vimrc file by opening running the following in vim
 ```
 :source %
+```
+* install the plugins by running, in vim, the command
+```
 :PluginInstall
 ```
 * run the command `:PluginInstall!` in vim to update plugins
