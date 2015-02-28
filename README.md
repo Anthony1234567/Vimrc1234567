@@ -1,5 +1,5 @@
 # My-Personal-Vimrc
-A simple personalized vimrc with C++, C, Matlab, Markdown, and text editing support.
+A simple vim configuration with C++, C, Matlab, Markdown, and text editing in mind.
 
 ## Plugins
 This is a list of the plugins used:
@@ -22,21 +22,11 @@ More useful plugins can be found in [Vim Awesome](http://vimawesome.com/)
 ## Installing Plugins
 * place the .vimrc in your home directory
 * source the .vimrc file by opening running the following in vim
-```	
+```
 :source %
 :PluginInstall
 ```
-
-## Important!
-
-#### For Instant Markdown Plugin
-The plugin require you to download [node.js](http://nodejs.org/) then run the following commands in your teminal
-```
-[sudo] npm -g install instant-markdown-d
-```
-#### For Airline statusbar plugin
-[Powerline fonts](https://powerline.readthedocs.org/en/master/installation.html#patched-fonts) give the statusline a
-nicer look but are not required. 
+* run the command `:PluginInstall!` in vim to update plugins
 
 ## Screenshots
 ##### MATLAB support
@@ -61,10 +51,22 @@ statusline](https://github.com/Anthony1234567/Vimrc1234567/blob/master/Screensho
 ##### Automated markdown previewing
 ![Instant-Markdown Plugin in Action](https://github.com/Anthony1234567/Vimrc1234567/blob/master/Screenshots/Gif/vimrc%20gif%201%20-%20instant-markdown.gif)
 
+## Important!
+
+#### For Instant Markdown Plugin
+The plugin require you to download [node.js](http://nodejs.org/) then run the following commands in your teminal
+```
+[sudo] npm -g install instant-markdown-d
+```
+to unlock realtime markdown previewing.
+
+#### For Airline statusbar plugin
+[Powerline fonts](https://powerline.readthedocs.org/en/master/installation.html#patched-fonts) give the statusline a
+nicer look but are not required.
 
 
 # Vimrc1234567
-More info can be found in the individual documentation to each plugin. 
+More info can be found in the individual documentation to each plugin.
 
-Please comtribute any suggestions for improving this configuration.
+Please contribute any suggestions for improving this configuration.
 
