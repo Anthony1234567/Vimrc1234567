@@ -136,7 +136,7 @@ let g:syntastic_text_checkers = ['language_check' , 'atdtool']
 
 let g:syntastic_cpp_compiler = 'clang++' " C++ compiler
 let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++' " C++11 support
-let g:syntastic_cpp_compiler_options = ' -std=c++1y' " C++14 support
+" let g:syntastic_cpp_compiler_options = ' -std=c++1y' " C++14 support
 
 " vim-markdown
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown    " *.md support
