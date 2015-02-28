@@ -52,9 +52,11 @@ statusline](https://github.com/Anthony1234567/Vimrc1234567/blob/master/Screensho
 ![Syntastic Errors in
 statusline](https://github.com/Anthony1234567/Vimrc1234567/blob/master/Screenshots/Screenshot%20-%20syntastic%202%20-%20fixed.png)
 
-
 ##### Automated markdown previewing
 ![Instant-Markdown Plugin in Action](https://github.com/Anthony1234567/Vimrc1234567/blob/master/Screenshots/Gif/vimrc%20gif%201%20-%20instant-markdown.gif)
+
+##### Exploring Filesystems
+![NERDTree plugin on large directory]()
 
 ## Important!
 
