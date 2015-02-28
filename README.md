@@ -25,6 +25,9 @@ More useful plugins can be found in [Vim Awesome](http://vimawesome.com/)
 * source the .vimrc file by opening running the following in vim
 ```
 :source %
+```
+* install the plugins by running, in vim, the command
+```
 :PluginInstall
 ```
 * run the command `:PluginInstall!` in vim to update plugins
