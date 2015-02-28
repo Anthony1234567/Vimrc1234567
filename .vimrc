@@ -152,6 +152,7 @@ Plugin 'gmarik/Vundle.vim'
 
 " Plugins to be managed by Vundle
 " ----------------------------------------------------------
+Plugin 'tomasr/molokai'
 Plugin 'tpope/vim-markdown'
 Plugin 'suan/vim-instant-markdown'
 Plugin 'bronson/vim-trailing-whitespace'
