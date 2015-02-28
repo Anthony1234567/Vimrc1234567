@@ -16,6 +16,7 @@ This is a list of the plugins used:
   11. [nathanaelkane/vim-indent-guides](https://github.com/nathanaelkane/vim-indent-guides)
   12. [godlygeek/tabular](https://github.com/godlygeek/tabular)
   13. [MatlabFilesEdition](https://github.com/vim-scripts/MatlabFilesEdition)
+  14. [tomasr/molokai](https://github.com/tomasr/molokai)
 
 More useful plugins can be found in [Vim Awesome](http://vimawesome.com/)
 
