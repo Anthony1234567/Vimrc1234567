@@ -16,6 +16,7 @@ This is a list of the plugins used:
   11. [nathanaelkane/vim-indent-guides](https://github.com/nathanaelkane/vim-indent-guides)
   12. [godlygeek/tabular](https://github.com/godlygeek/tabular)
   13. [MatlabFilesEdition](https://github.com/vim-scripts/MatlabFilesEdition)
+  14. [scrooloose/nerdtree](https://github.com/scrooloose/nerdtree)
 
 More useful plugins can be found in [Vim Awesome](http://vimawesome.com/)
 
@@ -64,6 +65,8 @@ to unlock realtime markdown previewing.
 [Powerline fonts](https://powerline.readthedocs.org/en/master/installation.html#patched-fonts) give the statusline a
 nicer look but are not required.
 
+#### NERDTree
+`ctrl+n` toggles the plugin
 
 # Vimrc1234567
 More info can be found in the individual documentation to each plugin.
