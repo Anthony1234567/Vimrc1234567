@@ -21,29 +21,36 @@ This is a list of the plugins used:
 
 More useful plugins can be found in [Vim Awesome](http://vimawesome.com/)
 
-## Installing Plugins
-* place the .vimrc in your home directory
-* source the .vimrc file by opening running the following in vim
-```
-:source %
-```
-* install the plugins by running, in vim, the command
-```
-:PluginInstall
-```
-* run the command `:PluginInstall!` in vim to update plugins
+## Installing
 
-## Screenshots
-##### MATLAB support
-![MATLAB Syntax highlighting and syntax error
-checking](https://github.com/Anthony1234567/Vimrc1234567/blob/master/Screenshots/Screenshot%20-%20MATLAB.png)
+##### MUST HAVE [VIM](http://www.vim.org/download.php) INSTALLED! 
+Run the command below in Terminal to install this cofiguration and all of the plugins 
+
+````
+bash <(curl https://github.com/Anthony1234567/Vimrc1234567/raw/master/install1thru7.sh -L)
+````
+
+## Important!
+##### EXTRA installation instructions for vim-instant-markdown plugin
+The plugin require you to download [node.js](http://nodejs.org/) then run the following commands in your teminal
+```
+[sudo] npm -g install instant-markdown-d
+```
+If you're on Linux, the `xdg-utils` package needs to be installed (is installed by default on Ubuntu).
+Copy the `after/ftplugin/markdown/instant-markdown.vim` file from this repo into your `~/.vim/after/ftplugin/markdown/` (creating directories as necessary), or follow your vim package manager's instructions.
+Ensure you have the line `filetype plugin on` in your .vimrc
+Open a markdown file in vim and enjoy realtime markdown previewing.
+
+
+##### For Airline statusbar plugin
+[Powerline fonts](https://powerline.readthedocs.org/en/master/installation.html#patched-fonts) give the statusline a
+nicer look but are not required.
+
+## Screenshots and GIF
+##### Automated markdown previewing
+![Instant-Markdown Plugin in Action](https://github.com/Anthony1234567/Vimrc1234567/blob/master/Screenshots/Gif/vimrc%20gif%201%20-%20instant-markdown.gif)
 
 ##### C++/C/C++11/C++14 support
-
-###### Syntax error due to unsupported version of C++
-![Syntastic Errors in
-statusline](https://github.com/Anthony1234567/Vimrc1234567/blob/master/Screenshots/Screenshot%20-%20syntastic%201%20-%20c%2B%2B14%20support.png)
-
 ###### added C++14 support by uncommenting line 139 in .vimrc file but still syntax error due to well a syntax error
 ![Syntastic Errors in
 statusline](https://github.com/Anthony1234567/Vimrc1234567/blob/master/Screenshots/Screenshot%20-%20syntastic%203%20-%20errors.png)
@@ -52,30 +59,18 @@ statusline](https://github.com/Anthony1234567/Vimrc1234567/blob/master/Screensho
 ![Syntastic Errors in
 statusline](https://github.com/Anthony1234567/Vimrc1234567/blob/master/Screenshots/Screenshot%20-%20syntastic%202%20-%20fixed.png)
 
-##### Automated markdown previewing
-![Instant-Markdown Plugin in Action](https://github.com/Anthony1234567/Vimrc1234567/blob/master/Screenshots/Gif/vimrc%20gif%201%20-%20instant-markdown.gif)
 
-##### Exploring Filesystems
-![NERDTree plugin on large directory](https://github.com/Anthony1234567/Vimrc1234567/blob/master/Screenshots/Screenshot%20-%20NERDTree.png)
 
-## Important!
 
-#### For Instant Markdown Plugin
-The plugin require you to download [node.js](http://nodejs.org/) then run the following commands in your teminal
-```
-[sudo] npm -g install instant-markdown-d
-```
-to unlock realtime markdown previewing.
 
-#### For Airline statusbar plugin
-[Powerline fonts](https://powerline.readthedocs.org/en/master/installation.html#patched-fonts) give the statusline a
-nicer look but are not required.
 
 #### NERDTree
 `ctrl+n` toggles the plugin
 
+##### Exploring Filesystems
+![NERDTree plugin on large directory](https://github.com/Anthony1234567/Vimrc1234567/blob/master/Screenshots/Screenshot%20-%20NERDTree.png)
+
 # Vimrc1234567
 More info can be found in the individual documentation to each plugin.
-
 Please contribute any suggestions for improving this configuration.
 
