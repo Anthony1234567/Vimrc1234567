@@ -164,6 +164,7 @@ Plugin 'gmarik/Vundle.vim'
 " Plugins to be managed by Vundle
 " ----------------------------------------------------------
 "Plugin 'edkolev/promptline.vim'
+Plugin 'tomasr/molokai'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-markdown'
 Plugin 'suan/vim-instant-markdown'
