@@ -1,5 +1,5 @@
 # My-Personal-Vimrc
-A simple vim configuration with C++, C, Matlab, Markdown, and text editing in mind.
+A simplistic vim configuration with C++, Markdown, and text editing in mind.
 
 ## Plugins
 This is a list of the plugins used:
