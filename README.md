@@ -29,17 +29,19 @@ Run the command below in Terminal to install this cofiguration and all of the pl
 ````
 bash <(curl https://github.com/Anthony1234567/Vimrc1234567/raw/master/install1thru7.sh -L)
 ````
+###### Attention!
+This will replace your current settings and move your old settings to a directory called oldvim in your HOME. 
 
 ## Important!
 ##### EXTRA installation instructions for vim-instant-markdown plugin
-The plugin require you to download [node.js](http://nodejs.org/) then run the following commands in your teminal
+* The plugin require you to download [node.js](http://nodejs.org/) then run the following commands in your teminal
 ```
 [sudo] npm -g install instant-markdown-d
 ```
-If you're on Linux, the `xdg-utils` package needs to be installed (is installed by default on Ubuntu).
-Copy the `after/ftplugin/markdown/instant-markdown.vim` file from this repo into your `~/.vim/after/ftplugin/markdown/` (creating directories as necessary), or follow your vim package manager's instructions.
-Ensure you have the line `filetype plugin on` in your .vimrc
-Open a markdown file in vim and enjoy realtime markdown previewing.
+* If you're on Linux, the `xdg-utils` package needs to be installed (is installed by default on Ubuntu).
+* Copy the `after/ftplugin/markdown/instant-markdown.vim` file from this repo into your `~/.vim/after/ftplugin/markdown/` (creating directories as necessary), or follow your vim package manager's instructions.
+* Ensure you have the line `filetype plugin on` in your .vimrc
+* Open a markdown file in vim and enjoy realtime markdown previewing.
 
 
 ##### For Airline statusbar plugin
@@ -59,18 +61,18 @@ statusline](https://github.com/Anthony1234567/Vimrc1234567/blob/master/Screensho
 ![Syntastic Errors in
 statusline](https://github.com/Anthony1234567/Vimrc1234567/blob/master/Screenshots/Screenshot%20-%20syntastic%202%20-%20fixed.png)
 
-
-
-
-
-
 #### NERDTree
 `ctrl+n` toggles the plugin
 
 ##### Exploring Filesystems
 ![NERDTree plugin on large directory](https://github.com/Anthony1234567/Vimrc1234567/blob/master/Screenshots/Screenshot%20-%20NERDTree.png)
 
+#### NERDCommenter
+`\cc`	comment out the line highlighted by the cursor
+`\ci`	toggle the state of the highlighted lines
+`\cu`	uncomment the line that the cursor is highlighting
+`\cs`	comment the highlighted using /* and */ rather than the ordinary //
+
 # Vimrc1234567
 More info can be found in the individual documentation to each plugin.
 Please contribute any suggestions for improving this configuration.
-
