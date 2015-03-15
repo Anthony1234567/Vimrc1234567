@@ -3,7 +3,7 @@ A simplistic vim configuration with C++, Markdown, and text editing in mind.
 
 # Configuration
 ### MUST HAVE [VIM](http://www.vim.org/download.php) INSTALLED! 
-Run the command below in Terminal to install this cofiguration and all of the plugins.
+Run the command below in Terminal to install this configuration and all of the plugins.
 ````
 bash <(curl https://github.com/Anthony1234567/Vimrc1234567/raw/master/install1thru7.sh -L)
 ````
@@ -12,7 +12,7 @@ bash <(curl https://github.com/Anthony1234567/Vimrc1234567/raw/master/install1th
 This will replace your current settings and move your old settings to a folder called oldvim in your HOME directory. 
 
 ##### EXTRA installation instructions for vim-instant-markdown plugin
-* The plugin require you to download [node.js](http://nodejs.org/) then run the following commands in your teminal
+* The plugin require you to download [node.js](http://nodejs.org/) then run the following commands in your terminal
 ````
   [sudo] npm -g install instant-markdown-d
 ````
