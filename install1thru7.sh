@@ -28,10 +28,10 @@ else
 fi
 
 cd
-cd vimrc1234567
+cd Vimrc1234567
 mv .vimrc ..
 cd
-rm -Rf vimrc1234567
+rm -Rf Vimrc1234567
 mkdir -p .vim/bundle
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
