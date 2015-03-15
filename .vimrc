@@ -48,11 +48,6 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 
-" malokai theme
-let g:molokai_original = 1
-let g:rehash256 = 1
-colorscheme molokai
-
 " set UTF-8 encoding
 set enc=utf-8
 set fenc=utf-8
@@ -89,8 +84,10 @@ set confirm			"ask to save file
 set showcmd			"display incomplete command in the lower right corner of the console
 set undolevels=1000	"let vim allow 1000 undos
 set textwidth=80
-set colorcolumn=80
-highlight ColorColumn ctermbg=236
+" doesnt work in hammer. 
+" uncomment in personal computer
+"set colorcolumn=80
+"highlight ColorColumn ctermbg=236
 
 "Searching
 set incsearch			   "search as char are entered
@@ -196,3 +193,7 @@ autocmd BufNewFile,BufReadPost *.md set filetype=markdown    " *.md support
 " automatic Whitespace removal
 autocmd VimEnter,BufReadPost,bufwritepost,bufenter * :FixWhitespace
 
+" malokai theme
+let g:molokai_original = 1
+let g:rehash256 = 1
+colorscheme molokai
