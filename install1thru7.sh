@@ -34,4 +34,4 @@ cd
 rm -Rf Vimrc1234567
 mkdir -p .vim/bundle
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-vim 2>&1 /dev/null +PluginInstall +qall
+vim +PluginInstall +qall
