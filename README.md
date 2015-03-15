@@ -54,7 +54,7 @@ statusline](https://github.com/Anthony1234567/Vimrc1234567/blob/master/Screensho
 statusline](https://github.com/Anthony1234567/Vimrc1234567/blob/master/Screenshots/Screenshot%20-%20syntastic%202%20-%20fixed.png)
 
 ## NERDTree
-`ctrl+n` toggles the plugin
+### `ctrl+n` toggles the plugin
 
 ##### Exploring Filesystems
 ![NERDTree plugin on large directory](https://github.com/Anthony1234567/Vimrc1234567/blob/master/Screenshots/Screenshot%20-%20NERDTree.png)
