@@ -31,10 +31,10 @@ This is a list of the plugins used:
 
 More useful plugins can be found in [Vim Awesome](http://vimawesome.com/)
 
-#### Automated markdown previewing via vim-instant-markdown
+## Automated markdown previewing via vim-instant-markdown
 ![Instant-Markdown Plugin in Action](https://github.com/Anthony1234567/Vimrc1234567/blob/master/Screenshots/Gif/vimrc%20gif%201%20-%20instant-markdown.gif)
 
-##### EXTRA installation instructions for vim-instant-markdown plugin
+#### EXTRA installation instructions for vim-instant-markdown plugin
 * The plugin require you to download [node.js](http://nodejs.org/) then run the following commands in your terminal
 ````
   [sudo] npm -g install instant-markdown-d
@@ -44,28 +44,28 @@ More useful plugins can be found in [Vim Awesome](http://vimawesome.com/)
 * Ensure you have the line `filetype plugin on` in your .vimrc
 * Open a markdown file in vim and enjoy realtime markdown previewing.
 
-#### C++/C/C++11/C++14 support
-###### added C++14 support by uncommenting line 139 in .vimrc file but still syntax error due to well a syntax error
+## C++/C/C++11/C++14 Syntax error checking
+#### Added C++14 support by uncommenting line 139 in .vimrc file but still syntax error due to well a syntax error
 ![Syntastic Errors in
 statusline](https://github.com/Anthony1234567/Vimrc1234567/blob/master/Screenshots/Screenshot%20-%20syntastic%203%20-%20errors.png)
 
-###### fixed the error
+#### Fixed error
 ![Syntastic Errors in
 statusline](https://github.com/Anthony1234567/Vimrc1234567/blob/master/Screenshots/Screenshot%20-%20syntastic%202%20-%20fixed.png)
 
-#### NERDTree
+## NERDTree
 `ctrl+n` toggles the plugin
 
 ##### Exploring Filesystems
 ![NERDTree plugin on large directory](https://github.com/Anthony1234567/Vimrc1234567/blob/master/Screenshots/Screenshot%20-%20NERDTree.png)
 
-#### NERDCommenter
+## NERDCommenter
 - `\cc`	comment out the line highlighted by the cursor
 - `\ci`	toggle the state of the highlighted lines
 - `\cu`	uncomment the line that the cursor is highlighting
 - `\cs`	comment the highlighted using /* and */ rather than the ordinary //
 
-#### Comment on Airline statusbar plugin
+## Comment on Airline statusbar plugin
 [Powerline fonts](https://powerline.readthedocs.org/en/master/installation.html#patched-fonts) give the statusline a nicer look but are not required.
 
 # Vimrc1234567
