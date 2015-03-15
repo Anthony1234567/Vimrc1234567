@@ -84,10 +84,8 @@ set confirm			"ask to save file
 set showcmd			"display incomplete command in the lower right corner of the console
 set undolevels=1000	"let vim allow 1000 undos
 set textwidth=80
-" doesnt work in hammer. 
-" uncomment in personal computer
-"set colorcolumn=80
-"highlight ColorColumn ctermbg=236
+set colorcolumn=80
+highlight ColorColumn ctermbg=236
 
 "Searching
 set incsearch			   "search as char are entered
