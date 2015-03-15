@@ -4,10 +4,10 @@ cd
 git clone https://github.com/Anthony1234567/Vimrc1234567
 cd
 
-if test -e .vim
+if [ -e .vim ]
 then
 	#if .vim exist, check if .vimrc exists
-	if test -e .vimrc
+	if [ -e .vimrc ]
 	#if both exist, create a dir and move both
 	then
 		mkdir oldvim
@@ -20,7 +20,7 @@ then
 	fi
 else
 	#if only .vimrc exists
-	if test -e .vimrc
+	if [ -e .vimrc ]
 	then
 		mkdir oldvim
 		mv .vimrc
