@@ -8,7 +8,7 @@ Run the command below in Terminal to install this configuration and all of the p
 bash <(curl https://github.com/Anthony1234567/Vimrc1234567/raw/master/install1thru7.sh -L)
 ````
 
-### Attention!
+**Attention!**
 This will replace your current settings and move your old settings to a folder called oldvim in your HOME directory. 
 
 # Plugins
