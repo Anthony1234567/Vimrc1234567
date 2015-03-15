@@ -1,8 +1,9 @@
-#!/binbash
+#!/bin/bash
 
 cd
 git clone https://github.com/Anthony1234567/Vimrc1234567
 cd
+
 if test -e .vim
 then
 	#if .vim exist, check if .vimrc exists
@@ -25,6 +26,7 @@ else
 		mv .vimrc
 	fi
 fi
+
 cd
 cd vimrc1234567
 mv .vimrc ..
