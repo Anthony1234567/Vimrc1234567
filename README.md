@@ -64,10 +64,10 @@ statusline](https://github.com/Anthony1234567/Vimrc1234567/blob/master/Screensho
 ![NERDTree plugin on large directory](https://github.com/Anthony1234567/Vimrc1234567/blob/master/Screenshots/Screenshot%20-%20NERDTree.png)
 
 #### NERDCommenter
-`\cc`	comment out the line highlighted by the cursor
-`\ci`	toggle the state of the highlighted lines
-`\cu`	uncomment the line that the cursor is highlighting
-`\cs`	comment the highlighted using /* and */ rather than the ordinary //
+- `\cc`	comment out the line highlighted by the cursor
+- `\ci`	toggle the state of the highlighted lines
+- `\cu`	uncomment the line that the cursor is highlighting
+- `\cs`	comment the highlighted using /* and */ rather than the ordinary //
 
 # Vimrc1234567
 More info can be found in the individual documentation to each plugin.
