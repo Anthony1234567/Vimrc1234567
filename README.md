@@ -25,10 +25,9 @@ More useful plugins can be found in [Vim Awesome](http://vimawesome.com/)
 
 ##### MUST HAVE [VIM](http://www.vim.org/download.php) INSTALLED! 
 Run the command below in Terminal to install this cofiguration and all of the plugins 
-
-````
-bash <(curl https://github.com/Anthony1234567/Vimrc1234567/raw/master/install1thru7.sh -L)
-````
+  ````
+  bash <(curl https://github.com/Anthony1234567/Vimrc1234567/raw/master/install1thru7.sh -L)
+  ````
 ###### Attention!
 This will replace your current settings and move your old settings to a directory called oldvim in your HOME. 
 
