@@ -75,4 +75,4 @@ statusline](https://github.com/Anthony1234567/Vimrc1234567/blob/master/Screensho
 
 # Vimrc1234567
 More info can be found in the individual documentation to each plugin.
-Please contribute any suggestions for improving this configuration.
+Contribute any suggestions for improving this configuration.
