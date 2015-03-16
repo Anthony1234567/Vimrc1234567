@@ -4,6 +4,11 @@ cd
 git clone https://github.com/Anthony1234567/Vimrc1234567
 cd
 
+if [ -e oldvim ]
+then
+	rm -Rf oldvim
+fi
+
 if [ -e .vim ]
 then
 	#if .vim exist, check if .vimrc exists
@@ -11,19 +16,19 @@ then
 	#if both exist, create a dir and move both
 	then
 		mkdir -p oldvim
-		mv -f .vim oldvim
-		mv -f .vimrc oldvim
+		mv .vim oldvim
+		mv .vimrc oldvim
 	#if only .vim exists
 	else
 		mkdir -p oldvim
-		mv -f .vim oldvim
+		mv .vim oldvim
 	fi
 else
 	#if only .vimrc exists
 	if [ -e .vimrc ]
 	then
 		mkdir -p oldvim
-		mv -f .vimrc
+		mv .vimrc
 	fi
 fi
 
