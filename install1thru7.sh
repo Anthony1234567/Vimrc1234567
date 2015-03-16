@@ -10,26 +10,26 @@ then
 	if [ -e .vimrc ]
 	#if both exist, create a dir and move both
 	then
-		mkdir oldvim
-		mv .vim oldvim
-		mv .vimrc oldvim
+		mkdir -p oldvim
+		mv -f .vim oldvim
+		mv -f .vimrc oldvim
 	#if only .vim exists
 	else
-		mkdir oldvim
-		mv .vim oldvim
+		mkdir -p oldvim
+		mv -f .vim oldvim
 	fi
 else
 	#if only .vimrc exists
 	if [ -e .vimrc ]
 	then
-		mkdir oldvim
-		mv .vimrc
+		mkdir -p oldvim
+		mv -f .vimrc
 	fi
 fi
 
 cd
 cd Vimrc1234567
-mv .vimrc ..
+mv -f .vimrc ..
 cd
 rm -Rf Vimrc1234567
 mkdir -p .vim/bundle
