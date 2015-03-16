@@ -16,19 +16,19 @@ then
 	#if both exist, create a dir and move both
 	then
 		mkdir -p oldvim
-		mv .vim oldvim
-		mv .vimrc oldvim
+		mv .vim oldvim/.vim
+		mv .vimrc oldvim/.vimrc
 	#if only .vim exists
 	else
 		mkdir -p oldvim
-		mv .vim oldvim
+		mv .vim oldvim/.vim
 	fi
 else
 	#if only .vimrc exists
 	if [ -e .vimrc ]
 	then
 		mkdir -p oldvim
-		mv .vimrc
+		mv .vimrc oldvim/.vimrc
 	fi
 fi
 
