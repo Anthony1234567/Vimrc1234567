@@ -1,4 +1,4 @@
-# My-Personal-Vimrc
+# Vimrc1234567
 A simple vim configuration with C++, Markdown, and text editing in mind.
 
 Run the command below in Terminal to install this configuration and all of the plugins.
@@ -8,26 +8,6 @@ bash <(curl https://github.com/Anthony1234567/Vimrc1234567/raw/master/install1th
 
 **Attention!**
 This will replace your current settings and move your old settings to a folder called oldvim in your HOME directory. 
-
-# Plugins
-This is a list of the plugins used:
-  1. [gmarik/Vundle.vim](https://github.com/gmarik/Vundle.vim) ~ An easy to use plugin manager for vim.
-  2. [tpope/vim-markdown](https://github.com/tpope/vim-markdown) ~ Syntax highlighting and filetype plugins for Markdown
-  3. [bronson/vim-trailing-whitespace](https://github.com/bronson/vim-trailing-whitespace) ~ Higlight trailing whitespace
-  4. [kien/rainbow_parentheses.vim](https://github.com/kien/rainbow_parentheses.vim) ~ Parentheses levels by color
-  5. [bling/vim-airline](https://github.com/bling/vim-airline) ~ A nice status line for vim
-  6. [ervandew/supertab](https://github.com/ervandew/supertab) ~ Tab insert completion
-  7. [Raimondi/delimitMate](https://github.com/Raimondi/delimitMate) ~ Auto-close quotes, parens, brackets, etc.
-  8. [scrooloose/syntastic](https://github.com/scrooloose/syntastic) ~ Syntax checker for vim
-  9. [scrooloose/nerdcommenter](https://github.com/scrooloose/nerdcommenter) ~ Commenting 
-  10. [nathanaelkane/vim-indent-guides](https://github.com/nathanaelkane/vim-indent-guides) ~ Visual display of indent levels
-  11. [godlygeek/tabular](https://github.com/godlygeek/tabular) ~ Align text
-  12. [MatlabFilesEdition](https://github.com/vim-scripts/MatlabFilesEdition) ~ Syntax highlighting and file support for MATLAB
-  13. [scrooloose/nerdtree](https://github.com/scrooloose/nerdtree) ~ Explore filesystems in tree representation
-  14. [tomasr/molokai](https://github.com/tomasr/molokai) ~ Nice theme for Vim
-  15. [suan/vim-instant-markdown](https://github.com/suan/vim-instant-markdown) ~ EXTRA: Instant preview plugin for Markdown
-
-More useful plugins can be found in [Vim Awesome](http://vimawesome.com/)
 
 ## Automated markdown previewing via vim-instant-markdown
 ![Instant-Markdown Plugin in Action](https://github.com/Anthony1234567/Vimrc1234567/blob/master/Screenshots/Gif/vimrc%20gif%201%20-%20instant-markdown.gif)
@@ -66,6 +46,22 @@ statusline](https://github.com/Anthony1234567/Vimrc1234567/blob/master/Screensho
 ## Comment on Airline statusbar plugin
 [Powerline fonts](https://powerline.readthedocs.org/en/master/installation.html#patched-fonts) give the statusline a nicer look but are not required.
 
-# Vimrc1234567
-More info can be found in the individual documentation to each plugin.
-Contribute any suggestions for improving this configuration.
+# Plugins
+This is a list of the plugins used:
+  1. [gmarik/Vundle.vim](https://github.com/gmarik/Vundle.vim) ~ An easy to use plugin manager for vim.
+  2. [tpope/vim-markdown](https://github.com/tpope/vim-markdown) ~ Syntax highlighting and filetype plugins for Markdown
+  3. [bronson/vim-trailing-whitespace](https://github.com/bronson/vim-trailing-whitespace) ~ Higlight trailing whitespace
+  4. [kien/rainbow_parentheses.vim](https://github.com/kien/rainbow_parentheses.vim) ~ Parentheses levels by color
+  5. [bling/vim-airline](https://github.com/bling/vim-airline) ~ A nice status line for vim
+  6. [ervandew/supertab](https://github.com/ervandew/supertab) ~ Tab insert completion
+  7. [Raimondi/delimitMate](https://github.com/Raimondi/delimitMate) ~ Auto-close quotes, parens, brackets, etc.
+  8. [scrooloose/syntastic](https://github.com/scrooloose/syntastic) ~ Syntax checker for vim
+  9. [scrooloose/nerdcommenter](https://github.com/scrooloose/nerdcommenter) ~ Commenting 
+  10. [nathanaelkane/vim-indent-guides](https://github.com/nathanaelkane/vim-indent-guides) ~ Visual display of indent levels
+  11. [godlygeek/tabular](https://github.com/godlygeek/tabular) ~ Align text
+  12. [MatlabFilesEdition](https://github.com/vim-scripts/MatlabFilesEdition) ~ Syntax highlighting and file support for MATLAB
+  13. [scrooloose/nerdtree](https://github.com/scrooloose/nerdtree) ~ Explore filesystems in tree representation
+  14. [tomasr/molokai](https://github.com/tomasr/molokai) ~ Nice theme for Vim
+  15. [suan/vim-instant-markdown](https://github.com/suan/vim-instant-markdown) ~ EXTRA: Instant preview plugin for Markdown
+
+More useful plugins can be found in [Vim Awesome](http://vimawesome.com/)
