@@ -1,8 +1,6 @@
 # My-Personal-Vimrc
-A simplistic vim configuration with C++, Markdown, and text editing in mind.
+A simple vim configuration with C++, Markdown, and text editing in mind.
 
-# Configuration
-### MUST HAVE [vim](http://www.vim.org/download.php) INSTALLED! 
 Run the command below in Terminal to install this configuration and all of the plugins.
 ````
 bash <(curl https://github.com/Anthony1234567/Vimrc1234567/raw/master/install1thru7.sh -L)
